@@ -1,6 +1,6 @@
 # RTS (React fork)
 
-# [Site | Превью](rts-react.vercel.app)
+# [Site | Превью](https://rts-react.vercel.app/)
 
 ## Запуск
 

@@ -1,5 +1,7 @@
 # RTS (React fork)
 
+# [Site | Превью](rts-react.vercel.app)
+
 ## Запуск
 
 ### `npm install`

@@ -12,9 +12,9 @@
 
 @media (min-width: 1440px) {
   .auth-form label {
-    font-size: 18px;
+    font-size: 1.125em;
   }
   .auth-btn {
-    font-size: 22px;
+    font-size: 1.375em;
   }
 }

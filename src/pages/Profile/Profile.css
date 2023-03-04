@@ -1,6 +1,7 @@
 .history {
   display: flex;
   gap: 2rem;
+  font-size: 1em;
 }
 
 .history-item {
@@ -15,23 +16,24 @@
   text-transform: uppercase;
 }
 
-.matches-list {
-  padding: 30px 15px;
+.profile-matches {
+  padding: 0 1em;
 
   background: #393838;
   border-radius: 15px;
 
   position: relative;
 }
-.tournaments-list {
+.profile-tournaments {
   width: 100%;
 
-  padding: 30px 15px;
+  padding: 2em 1em;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  gap: 2rem;
 
   background: #393838;
   border-radius: 15px;

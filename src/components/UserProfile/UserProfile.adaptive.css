@@ -13,10 +13,15 @@
   }
   .profile-info-block {
     width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 4rem;
   }
   .profile-info {
-    width: 70%;
+    width: auto;
+    align-items: center;
     margin: 0;
   }
   .profile-awards {
@@ -45,9 +50,9 @@
 
 @media (max-width: 370px) {
   .profile-title {
-    font-size: 24px;
+    font-size: 1.5em;
   }
   .profile-subtitle {
-    font-size: 18px;
+    font-size: 1.125em;
   }
 }

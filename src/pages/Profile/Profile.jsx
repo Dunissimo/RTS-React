@@ -3,6 +3,7 @@ import SingleTournament from "../../components/SingleTournament/SingleTournament
 import UserProfile from "../../components/UserProfile/UserProfile";
 
 import "./Profile.css";
+import "./Profile.adaptive.css";
 
 const matches = [
   {
@@ -94,7 +95,7 @@ const Profile = () => {
       <div className="history">
         <div className="history-item">
           <h2>Матчи</h2>
-          <div className="matches-list">
+          <div className="profile-matches">
             {matches.map((match) => (
               <Match key={match.id} data={match} />
             ))}
@@ -103,7 +104,7 @@ const Profile = () => {
 
         <div className="history-item">
           <h2>Турниры</h2>
-          <div className="tournaments-list">
+          <div className="profile-tournaments">
             {tournaments.map((tour) => (
               <SingleTournament data={tour} key={tour.id} />
             ))}

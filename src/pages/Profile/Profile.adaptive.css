@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+  .history {
+    font-size: 14px;
+  }
+}
+@media (max-width: 800px) {
+  .history {
+    flex-direction: column;
+  }
+  .profile-matches,
+  .profile-tournaments {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .history-item {
+    width: 100%;
+    gap: 0;
+  }
+}
+@media (max-width: 500px) {
+  .profile-matches,
+  .profile-tournaments {
+    width: 100%;
+    padding: 1em 0.5em;
+  }
+}

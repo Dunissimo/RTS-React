@@ -18,7 +18,7 @@
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125em;
 }
 .tour-info {
   padding: 1rem 1.5rem;
@@ -31,5 +31,5 @@
   background: #525966;
 }
 .tour-info h3 {
-  font-size: 24px;
+  font-size: 1.5em;
 }
